@@ -8,27 +8,29 @@
 
 import { calcuLatesSum, calcuLatesSumV2 } from './01-calc-s';
 describe('s(n) =1 + 2 + 3 + … + n', () => {
-   test('should return 0 when n <=0 ', () => {
-      expect(calcuLatesSum(0)).toBe(0);
-      expect(calcuLatesSum(-1)).toBe(0);
-   });
+  test('should return 0 when n <=0 ', () => {
+    expect(calcuLatesSum(-1)).toBe(0);
+    expect(calcuLatesSum(0)).toBe(0);
+  });
 
-   test('should return sum when N > 0', () => {
-      expect(calcuLatesSum(1)).toBe(1);
-      expect(calcuLatesSum(2)).toBe(3);
-      expect(calcuLatesSum(10)).toBe(55);
-   });
+  test('should return sum when n > 0', () => {
+    expect(calcuLatesSum(1)).toBe(1);
+    expect(calcuLatesSum(2)).toBe(3);
+    expect(calcuLatesSum(3)).toBe(6);
+    expect(calcuLatesSum(10)).toBe(55);
+  });
 });
 
 describe('s(n) =1 + 2 + 3 + … + n', () => {
-   test('should return 0 when n <=0 ', () => {
-      expect(calcuLatesSumV2(0)).toBe(0);
-      expect(calcuLatesSumV2(-1)).toBe(0);
-   });
+  test('should return 0 when n <=0 ', () => {
+    expect(calcuLatesSumV2(-1)).toBe(0);
+    expect(calcuLatesSumV2(0)).toBe(0);
+  });
 
-   test('should return sum when N > 0', () => {
-      expect(calcuLatesSumV2(1)).toBe(1);
-      expect(calcuLatesSumV2(2)).toBe(3);
-      expect(calcuLatesSumV2(10)).toBe(55);
-   });
+  test('should return sum when n > 0', () => {
+    expect(calcuLatesSumV2(1)).toBe(1);
+    expect(calcuLatesSumV2(2)).toBe(3);
+    expect(calcuLatesSumV2(3)).toBe(6);
+    expect(calcuLatesSumV2(10)).toBe(55);
+  });
 });

@@ -1,17 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1659082893052" clover="3.2.0">
-  <project timestamp="1659082893052" name="All files">
-    <metrics statements="34" coveredstatements="22" conditionals="42" coveredconditionals="22" methods="10" coveredmethods="8" elements="86" coveredelements="52" complexity="0" loc="34" ncloc="34" packages="2" files="3" classes="3"/>
+<coverage generated="1667378088529" clover="3.2.0">
+  <project timestamp="1667378088529" name="All files">
+    <metrics statements="119" coveredstatements="107" conditionals="111" coveredconditionals="90" methods="31" coveredmethods="29" elements="261" coveredelements="226" complexity="0" loc="119" ncloc="119" packages="3" files="13" classes="13"/>
     <package name="js_labs">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="main.js" path="D:\Easy_Frontend\js_labs\main.js">
+      <file name="main.js" path="D:\Easy_Frontend\JavaScript\js_labs\main.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
       </file>
     </package>
+    <package name="js_labs.practice">
+      <metrics statements="85" coveredstatements="85" conditionals="69" coveredconditionals="68" methods="21" coveredmethods="21"/>
+      <file name="01-calc-s.js" path="D:\Easy_Frontend\JavaScript\js_labs\practice\01-calc-s.js">
+        <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="4" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="16" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="15" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="3" type="stmt"/>
+      </file>
+      <file name="array-check-07.js" path="D:\Easy_Frontend\JavaScript\js_labs\practice\array-check-07.js">
+        <metrics statements="4" coveredstatements="4" conditionals="8" coveredconditionals="7" methods="2" coveredmethods="2"/>
+        <line num="8" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="9" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="40" count="2" type="stmt"/>
+      </file>
+      <file name="array-count-04.js" path="D:\Easy_Frontend\JavaScript\js_labs\practice\array-count-04.js">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="30" count="11" type="cond" truecount="4" falsecount="0"/>
+        <line num="32" count="6" type="stmt"/>
+        <line num="33" count="22" type="stmt"/>
+        <line num="34" count="22" type="stmt"/>
+        <line num="37" count="6" type="stmt"/>
+      </file>
+      <file name="array-filter-06.js" path="D:\Easy_Frontend\JavaScript\js_labs\practice\array-filter-06.js">
+        <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="6" count="9" type="stmt"/>
+        <line num="8" count="9" type="stmt"/>
+        <line num="12" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="9" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="18" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="2" type="stmt"/>
+      </file>
+      <file name="array-find-09.js" path="D:\Easy_Frontend\JavaScript\js_labs\practice\array-find-09.js">
+        <metrics statements="5" coveredstatements="5" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="5" count="9" type="cond" truecount="4" falsecount="0"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="9" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="2" type="stmt"/>
+      </file>
+      <file name="array-subarr-04.js" path="D:\Easy_Frontend\JavaScript\js_labs\practice\array-subarr-04.js">
+        <metrics statements="11" coveredstatements="11" conditionals="11" coveredconditionals="11" methods="1" coveredmethods="1"/>
+        <line num="2" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="22" type="stmt"/>
+        <line num="8" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="22" type="cond" truecount="5" falsecount="0"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+      <file name="array-sum-04.js" path="D:\Easy_Frontend\JavaScript\js_labs\practice\array-sum-04.js">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="18" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+      </file>
+      <file name="logic-04.js" path="D:\Easy_Frontend\JavaScript\js_labs\practice\logic-04.js">
+        <metrics statements="10" coveredstatements="10" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+        <line num="8" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="14" count="15" type="stmt"/>
+        <line num="17" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="15" type="cond" truecount="4" falsecount="0"/>
+        <line num="21" count="9" type="stmt"/>
+        <line num="25" count="5" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+      </file>
+      <file name="number-01.js" path="D:\Easy_Frontend\JavaScript\js_labs\practice\number-01.js">
+        <metrics statements="14" coveredstatements="14" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <line num="4" count="26" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="16" type="stmt"/>
+        <line num="7" count="16" type="stmt"/>
+        <line num="9" count="16" type="stmt"/>
+        <line num="11" count="44" type="stmt"/>
+        <line num="12" count="44" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="33" type="stmt"/>
+        <line num="18" count="33" type="stmt"/>
+        <line num="21" count="5" type="stmt"/>
+        <line num="25" count="26" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="16" type="stmt"/>
+        <line num="28" count="16" type="stmt"/>
+        <line num="29" count="28" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="5" type="stmt"/>
+      </file>
+      <file name="string-02.js" path="D:\Easy_Frontend\JavaScript\js_labs\practice\string-02.js">
+        <metrics statements="14" coveredstatements="14" conditionals="8" coveredconditionals="8" methods="6" coveredmethods="6"/>
+        <line num="2" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="22" type="stmt"/>
+        <line num="9" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="8" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="20" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="24" count="26" type="stmt"/>
+        <line num="32" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="13" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="js_labs.src">
       <metrics statements="33" coveredstatements="21" conditionals="42" coveredconditionals="22" methods="9" coveredmethods="7"/>
-      <file name="5-9.js" path="D:\Easy_Frontend\js_labs\src\5-9.js">
+      <file name="5-9.js" path="D:\Easy_Frontend\JavaScript\js_labs\src\5-9.js">
         <metrics statements="17" coveredstatements="5" conditionals="30" coveredconditionals="10" methods="3" coveredmethods="1"/>
         <line num="14" count="0" type="cond" truecount="0" falsecount="4"/>
         <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -31,21 +149,21 @@
         <line num="49" count="6" type="cond" truecount="2" falsecount="0"/>
         <line num="51" count="3" type="stmt"/>
       </file>
-      <file name="9-7.js" path="D:\Easy_Frontend\js_labs\src\9-7.js">
+      <file name="9-7.js" path="D:\Easy_Frontend\JavaScript\js_labs\src\9-7.js">
         <metrics statements="16" coveredstatements="16" conditionals="12" coveredconditionals="12" methods="6" coveredmethods="6"/>
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="3" type="stmt"/>
         <line num="16" count="9" type="cond" truecount="4" falsecount="0"/>
         <line num="18" count="3" type="stmt"/>
         <line num="20" count="3" type="stmt"/>
-        <line num="21" count="6" type="stmt"/>
-        <line num="22" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="5" type="stmt"/>
+        <line num="22" count="5" type="cond" truecount="2" falsecount="0"/>
         <line num="24" count="2" type="stmt"/>
         <line num="25" count="2" type="stmt"/>
         <line num="29" count="3" type="stmt"/>
         <line num="36" count="9" type="cond" truecount="4" falsecount="0"/>
         <line num="38" count="3" type="stmt"/>
-        <line num="39" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="5" type="cond" truecount="2" falsecount="0"/>
         <line num="41" count="1" type="stmt"/>
         <line num="47" count="2" type="stmt"/>
         <line num="48" count="3" type="stmt"/>
