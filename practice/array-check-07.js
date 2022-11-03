@@ -5,8 +5,8 @@
 // filter
 
 function isAlice(student) {
-   if (!student) return false;
-   return student.gender === 'female' && student.name.toLowerCase() === 'alice';
+  if (!student) return false;
+  return student.gender === 'female' && student.name.toLowerCase() === 'alice';
 }
 
 // for...i
@@ -35,16 +35,16 @@ function isAlice(student) {
 
 // find
 export function hasAlice(studentList) {
-   if (!Array.isArray(studentList) || studentList.length === 0) return false;
+  if (!Array.isArray(studentList) || studentList.length === 0) return false;
 
-   return Boolean(studentList.find(isAlice));
+  return Boolean(studentList.find((student) => isAlice(student)));
 }
 
 // // findIndex
 // export function hasAlice(studentList) {
-//    if (!Array.isArray(studentList) || studentList.length === 0) return false;
+//   if (!Array.isArray(studentList) || studentList.length === 0) return false;
 
-//    return studentList.findIndex(isAlice) >= 0;
+//   return studentList.findIndex((student) => isAlice(student)) >= 0;
 // }
 
 // filter

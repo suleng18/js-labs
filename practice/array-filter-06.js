@@ -1,22 +1,27 @@
-// Array filter
-// for...i
-// filter
-function getTheFirstDigit(number) {
-   const unsignedNumber = Math.abs(number);
-   const firstDigitCharacter = unsignedNumber.toString().charAt(0);
+// export function findAllNumbers(numberList) {
+//   if (!Array.isArray(numberList) || numberList.length === 0) return [];
 
-   return Number.parseInt(firstDigitCharacter);
+//   const result = [];
+
+//   for (let i = 0; i < numberList.length; i++) {
+//     const number = numberList[i];
+
+//     const firstDigit = getFirstDigitNumber(number);
+//     if (firstDigit % 2 !== 0) result.push(number);
+//   }
+
+//   return result;
+// }
+
+function getFirstDigitNumber(number) {
+  const unsignedNumber = Math.abs(number);
+
+  //   +unsignedNumber.toString().charAt(0); // string to number
+  return Number.parseInt(unsignedNumber.toString().charAt(0));
 }
 
 export function findAllNumbers(numberList) {
-   if (!Array.isArray(numberList) || numberList.length === 0) return [];
+  if (!Array.isArray(numberList) || numberList.length === 0) return [];
 
-   const filteredList = [];
-   for (let i = 0; i < numberList.length; i++) {
-      const number = numberList[i];
-      const firstDigit = getTheFirstDigit(number);
-      if (firstDigit % 2 === 1) filteredList.push(number);
-   }
-
-   return filteredList;
+  return numberList.filter((number) => getFirstDigitNumber(number) % 2 !== 0);
 }

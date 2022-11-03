@@ -1,28 +1,19 @@
-//tìm vị trí
+// tìm vị trí
 // for...i
 // findIndex
-export function findStudentById(studentList, studentId) {
-   if (!Array.isArray(studentList) || studentList.length === 0) return -1;
-
-   for (let i = 0; i < studentList.length; i++) {
-      const student = studentList[i];
-      if (student.id === studentId) return i;
-   }
-
-   return -1;
-}
 
 // export function findStudentById(studentList, studentId) {
-//    if (!Array.isArray(studentList) || studentList.length === 0) return -1;
+//   if (!Array.isArray(studentList) || studentList.length === 0) return -1;
+//   for (let i = 0; i < studentList.length; i++) {
+//     const student = studentList[i];
+//     if (student.id === studentId) return i;
+//   }
 
-//    return studentList.findIndex((student) => student.id === studentId);
+//   return -1;
 // }
-// console.log(
-//    findStudentById(
-//       [
-//          { id: 1, name: 'Easy' },
-//          { id: 2, name: 'Frontend' },
-//       ],
-//       2
-//    )
-// );
+
+export function findStudentById(studentList, studentId) {
+  if (!Array.isArray(studentList) || studentList.length === 0) return -1;
+
+  return studentList.findIndex((item) => item.id === studentId);
+}

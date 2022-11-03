@@ -2,37 +2,41 @@
 // P1: add unique numbers to a new array --> length
 // P2: using object map --> keys of object
 
-// function countUniqueNumbers(numberList) {
-//    if (!Array.isArray(numberList) || numberList.length === 0) return 0;
+// export function countUniqueNumbers(numberList) {
+//   if (!Array.isArray(numberList) || numberList.length === 0) return 0;
 
-//    const uniqueNumberList = [];
-//    for (let i = 0; i < numberList.length; i++) {
-//       const number = numberList[i];
-//       if (!uniqueNumberList.includes(number)) uniqueNumberList.push(number);
-//    }
+//   const uniqueNumberList = [];
 
-//    return uniqueNumberList.length;
+//   for (let i = 0; i < numberList.length; i++) {
+//     const number = numberList[i];
+
+//     if (!uniqueNumberList.includes(number)) uniqueNumberList.push(number);
+//   }
+
+//   return uniqueNumberList.length;
 // }
 
-// function countUniqueNumbers(numberList) {
-//    if (!Array.isArray(numberList) || numberList.length === 0) return 0;
+// export function countUniqueNumbers(numberList) {
+//   if (!Array.isArray(numberList) || numberList.length === 0) return 0;
 
-//    const flag = {};
-//    for (let i = 0; i < numberList.length; i++) {
-//       const number = numberList[i];
-//       flag[number] = true;
-//    }
+//   const flag = {};
 
-//    return Object.keys(flag).length;
+//   for (let i = 0; i < numberList.length; i++) {
+//     const number = numberList[i];
+
+//     flag[number] = true;
+//   }
+
+//   return Object.keys(flag).length;
 // }
 
 export function countUniqueNumbers(numberList) {
-   if (!Array.isArray(numberList) || numberList.length === 0) return 0;
+  if (!Array.isArray(numberList) || numberList.length === 0) return 0;
 
-   const flag = numberList.reduce((flag, number) => {
-      flag[number] = true;
-      return flag;
-   }, {});
+  const flagNumber = numberList.reduce((flag, number) => {
+    flag[number] = true;
+    return flag;
+  }, {});
 
-   return Object.keys(flag).length;
+  return Object.keys(flagNumber).length;
 }

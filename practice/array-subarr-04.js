@@ -1,19 +1,19 @@
 export function findAllPositiveEvenSubArr(numberList) {
-   if (!Array.isArray(numberList) || numberList.length === 0) return [];
+  if (!Array.isArray(numberList) || numberList.length === 0) return [];
 
-   const subArrayList = [];
-   let subArray = [];
-   for (let i = 0; i < numberList.length; i++) {
-      const number = numberList[i];
-      if (number % 2 === 0) subArray.push(number);
+  const resultList = [];
+  let subList = [];
 
-      //check if we need to reset subbarr
-      if (subArray.length > 0 && (number % 2 === 1 || i === numberList.length - 1)) {
-         subArrayList.push(subArray);
-         subArray = []; // reset subArray
-      }
-   }
+  for (let i = 0; i < numberList.length; i++) {
+    const number = numberList[i];
 
-   return subArrayList;
+    if (number % 2 === 0) subList.push(number);
+
+    if (subList.length > 0 && (number % 2 !== 0 || i === numberList.length - 1)) {
+      resultList.push(subList);
+      subList = [];
+    }
+  }
+
+  return resultList;
 }
-console.log(findAllPositiveEvenSubArr([1, 2, 4, 5, 8, 4, 2]));
