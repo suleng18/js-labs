@@ -1,11 +1,18 @@
+const intervalId = setInterval(() => {
+  console.log('Hello world');
+}, 2000);
+
+clearInterval(intervalId);
+
 function countdown(seconds) {
-  let currentSecond = seconds;
+  let currentSeconds = seconds;
+
   const intervalId = setInterval(() => {
-    console.log(currentSecond);
-    if (currentSecond <= 0) {
+    console.log(currentSeconds);
+    if (currentSeconds <= 0) {
       clearInterval(intervalId);
     }
-    currentSecond -= 1;
+    currentSeconds--;
   }, 1000);
 }
 countdown(10);
